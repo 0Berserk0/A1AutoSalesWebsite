@@ -124,6 +124,8 @@
         <div class="container">
             <div class="card-group">
 
+                <button type="submit" onclick="addCarsButton()">Add Car</button>
+
                 <!--bootstrap card with 3 horizontal images-->
                 <div class="row">
                     <div class="card col-md-4">
@@ -179,101 +181,636 @@
                             </ol>
                         </div>
                     </div>
-
-<!--                    <div class="card col-md-4">-->
-<!--                        <img class="card-img-top" src="assets/img/cars/flatbed_white.jpg">-->
-<!--                        <div class="card-body">-->
-<!--                            <h4 class="card-title">Name: 1997 DODGE 3500 DUALLY FLATBED 5.9 DIESEL</h4>-->
-<!--                            <h4 class="card-title">Miles: 171,288</h4>-->
-<!--                            <h4 class="card-title">Price: $12,995</h4>-->
-<!--                            <h4 class="card-title">Stock#: C465</h4>-->
-<!--                            <h5 class="card-text">Vehicle Details</h5>-->
-<!--                            <ol>-->
-<!--                                <li>ABS (4-Wheel)</li>-->
-<!--                                <li>Air Conditioning</li>-->
-<!--                                <li>Power Steering</li>-->
-<!--                                <li>Tilt Wheel</li>-->
-<!--                                <li>AM/FM Radio</li>-->
-<!--                                <li>Cassette</li>-->
-<!--                                <li>9' Stake Body</li>-->
-<!--                                <li>Towing Pkg</li>-->
-<!--                                <li>Steel Wheels</li>-->
-<!--                                <li>Duel Rear Wheels</li>-->
-<!--                            </ol>-->
-<!--                        </div>-->
-<!--                    </div>-->
-
-<!--                    <div class="card col-md-4">-->
-<!--                        <img class="card-img-top" src="assets/img/cars/flatbed_white.jpg">-->
-<!--                        <div class="card-body">-->
-<!--                            <h4 class="card-title">Name: 1997 DODGE 3500 DUALLY FLATBED 5.9 DIESEL</h4>-->
-<!--                            <h4 class="card-title">Miles: 171,288</h4>-->
-<!--                            <h4 class="card-title">Price: $12,995</h4>-->
-<!--                            <h4 class="card-title">Stock#: C465</h4>-->
-<!--                            <h5 class="card-text">Vehicle Details</h5>-->
-<!--                            <ol>-->
-<!--                                <li>ABS (4-Wheel)</li>-->
-<!--                                <li>Air Conditioning</li>-->
-<!--                                <li>Power Steering</li>-->
-<!--                                <li>Tilt Wheel</li>-->
-<!--                                <li>AM/FM Radio</li>-->
-<!--                                <li>Cassette</li>-->
-<!--                                <li>9' Stake Body</li>-->
-<!--                                <li>Towing Pkg</li>-->
-<!--                                <li>Steel Wheels</li>-->
-<!--                                <li>Duel Rear Wheels</li>-->
-<!--                            </ol>-->
-<!--                        </div>-->
-<!--                    </div>-->
-
-<!--                    <div class="card col-md-4">-->
-<!--                        <img class="card-img-top" src="assets/img/cars/flatbed_white.jpg">-->
-<!--                        <div class="card-body">-->
-<!--                            <h4 class="card-title">Name: 1997 DODGE 3500 DUALLY FLATBED 5.9 DIESEL</h4>-->
-<!--                            <h4 class="card-title">Miles: 171,288</h4>-->
-<!--                            <h4 class="card-title">Price: $12,995</h4>-->
-<!--                            <h4 class="card-title">Stock#: C465</h4>-->
-<!--                            <h5 class="card-text">Vehicle Details</h5>-->
-<!--                            <ol>-->
-<!--                                <li>ABS (4-Wheel)</li>-->
-<!--                                <li>Air Conditioning</li>-->
-<!--                                <li>Power Steering</li>-->
-<!--                                <li>Tilt Wheel</li>-->
-<!--                                <li>AM/FM Radio</li>-->
-<!--                                <li>Cassette</li>-->
-<!--                                <li>9' Stake Body</li>-->
-<!--                                <li>Towing Pkg</li>-->
-<!--                                <li>Steel Wheels</li>-->
-<!--                                <li>Duel Rear Wheels</li>-->
-<!--                            </ol>-->
-<!--                        </div>-->
-<!--                    </div>-->
-
-<!--                    <div class="card col-md-4">-->
-<!--                        <img class="card-img-top" src="assets/img/cars/flatbed_white.jpg">-->
-<!--                        <div class="card-body">-->
-<!--                            <h4 class="card-title">Name: 1997 DODGE 3500 DUALLY FLATBED 5.9 DIESEL</h4>-->
-<!--                            <h4 class="card-title">Miles: 171,288</h4>-->
-<!--                            <h4 class="card-title">Price: $12,995</h4>-->
-<!--                            <h4 class="card-title">Stock#: C465</h4>-->
-<!--                            <h5 class="card-text">Vehicle Details</h5>-->
-<!--                            <ol>-->
-<!--                                <li>ABS (4-Wheel)</li>-->
-<!--                                <li>Air Conditioning</li>-->
-<!--                                <li>Power Steering</li>-->
-<!--                                <li>Tilt Wheel</li>-->
-<!--                                <li>AM/FM Radio</li>-->
-<!--                                <li>Cassette</li>-->
-<!--                                <li>9' Stake Body</li>-->
-<!--                                <li>Towing Pkg</li>-->
-<!--                                <li>Steel Wheels</li>-->
-<!--                                <li>Duel Rear Wheels</li>-->
-<!--                            </ol>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
+                    <div class="card col-md-4">
+                        <img class="card-img-top" src="assets/img/cars/blackfordf150.png">
+                        <div class="card-body">
+                            <h4 class="card-title">Name: 2013 Ford F150</h4>
+                            <h4 class="card-title">Miles: 108236</h4>
+                            <h4 class="card-title">Price: $23995</h4>
+                            <h4 class="card-title">Stock#: A2059</h4>
+                            <h5 class="card-text">Vehicle Details</h5>
+                            <ol>
+                                <strong><li>Information will be added soon</li></strong>
+                                <!-- <li>SLT</li>
+                                <li>ABS (4-Wheel)</li>
+                                <li>Air Conditioning</li>
+                                <li>Air Conditioning, Rear</li>
+                                <li>Power Windows</li>
+                                <li>Power Door Locks</li>
+                                <li>Cruise Control</li>
+                                <li>Power Steering</li>
+                                <li>Tilt Wheel</li>
+                                <li>AM/FM Radio</li>
+                                <li>Cassette</li>
+                                <li>CD/MP3 (single disk)</li>
+                                <li>Dual Air Bags</li>
+                                <li>Power Seat</li>
+                                <li>Third Row Seat</li>
+                                <li>Roof Rack</li>
+                                <li>Towing Pkg</li>
+                                <li>Premium Wheels</li> -->
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="card-img-top" src="assets/img/cars/browngmc.png">
+                        <div class="card-body">
+                            <h4 class="card-title">Name: 1996 Chevrolet 1500 Extended Cab Long Bed</h4>
+                            <h4 class="card-title">Miles: 267438</h4>
+                            <h4 class="card-title">Price: $5995</h4>
+                            <h4 class="card-title">Stock#: A2057</h4>
+                            <h5 class="card-text">Vehicle Details</h5>
+                            <ol>
+                                <strong><li>Information will be added soon</li></strong>
+                                <!-- <li>SLT</li>
+                                <li>ABS (4-Wheel)</li>
+                                <li>Air Conditioning</li>
+                                <li>Air Conditioning, Rear</li>
+                                <li>Power Windows</li>
+                                <li>Power Door Locks</li>
+                                <li>Cruise Control</li>
+                                <li>Power Steering</li>
+                                <li>Tilt Wheel</li>
+                                <li>AM/FM Radio</li>
+                                <li>Cassette</li>
+                                <li>CD/MP3 (single disk)</li>
+                                <li>Dual Air Bags</li>
+                                <li>Power Seat</li>
+                                <li>Third Row Seat</li>
+                                <li>Roof Rack</li>
+                                <li>Towing Pkg</li>
+                                <li>Premium Wheels</li> -->
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="card-img-top" src="assets/img/cars/graydurango.png">
+                        <div class="card-body">
+                            <h4 class="card-title">Name: 2001 Dodge Durango</h4>
+                            <h4 class="card-title">Miles: 241831</h4>
+                            <h4 class="card-title">Price: $4995</h4>
+                            <h4 class="card-title">Stock#: A2026</h4>
+                            <h5 class="card-text">Vehicle Details</h5>
+                            <ol>
+                                <strong><li>Information will be added soon</li></strong>
+                                <!-- <li>SLT</li>
+                                <li>ABS (4-Wheel)</li>
+                                <li>Air Conditioning</li>
+                                <li>Air Conditioning, Rear</li>
+                                <li>Power Windows</li>
+                                <li>Power Door Locks</li>
+                                <li>Cruise Control</li>
+                                <li>Power Steering</li>
+                                <li>Tilt Wheel</li>
+                                <li>AM/FM Radio</li>
+                                <li>Cassette</li>
+                                <li>CD/MP3 (single disk)</li>
+                                <li>Dual Air Bags</li>
+                                <li>Power Seat</li>
+                                <li>Third Row Seat</li>
+                                <li>Roof Rack</li>
+                                <li>Towing Pkg</li>
+                                <li>Premium Wheels</li> -->
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="card-img-top" src="assets/img/cars/maroonf150.png">
+                        <div class="card-body">
+                            <h4 class="card-title">Name: 1998 F150 Super Cab</h4>
+                            <h4 class="card-title">Miles: 201271</h4>
+                            <h4 class="card-title">Price: $7995</h4>
+                            <h4 class="card-title">Stock#: A2014</h4>
+                            <h5 class="card-text">Vehicle Details</h5>
+                            <ol>
+                                <li>XLT</li>
+                                <li>Lariat</li>
+                                <li>ABS (4 Wheel)</li>
+                                <li>Air Conditioning</li>
+                                <li>Sliding Rear Windows</li>
+                                <li>Power Windows</li>
+                                <li>Power Door Locks</li>
+                                <li>Cruise Control</li>
+                                <li>Power Steering</li>
+                                <li>AM/FM Radio</li>
+                                <li>Tilt Wheel</li>
+                                <li>CD/MP3 (single disk)</li>
+                                <li>Dual Air Bags</li>
+                                <li>Leather</li>
+                                <li>Third Door</li>
+                                <li>Stepside Bed</li>
+                                <li>Running Boards</li>
+                                <li>Bed Liner</li>
+                                <li>Towing Pkg</li>
+                                <li>Alloy Wheels</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="card-img-top" src="assets/img/cars/minicooper.png">
+                        <div class="card-body">
+                            <h4 class="card-title">Name: 2012 Mini Cooper S</h4>
+                            <h4 class="card-title">Miles: 141049</h4>
+                            <h4 class="card-title">Price: $10995</h4>
+                            <h4 class="card-title">Stock#: A2045</h4>
+                            <h5 class="card-text">Vehicle Details</h5>
+                            <ol>
+                                <strong><li>Information will be added soon</li></strong>
+                                <!-- <li>SLT</li>
+                                <li>ABS (4-Wheel)</li>
+                                <li>Air Conditioning</li>
+                                <li>Air Conditioning, Rear</li>
+                                <li>Power Windows</li>
+                                <li>Power Door Locks</li>
+                                <li>Cruise Control</li>
+                                <li>Power Steering</li>
+                                <li>Tilt Wheel</li>
+                                <li>AM/FM Radio</li>
+                                <li>Cassette</li>
+                                <li>CD/MP3 (single disk)</li>
+                                <li>Dual Air Bags</li>
+                                <li>Power Seat</li>
+                                <li>Third Row Seat</li>
+                                <li>Roof Rack</li>
+                                <li>Towing Pkg</li>
+                                <li>Premium Wheels</li> -->
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="card-img-top" src="assets/img/cars/minivan.png">
+                        <div class="card-body">
+                            <h4 class="card-title">Name: 2013 Chrysler Town & Country</h4>
+                            <h4 class="card-title">Miles: 159,343</h4>
+                            <h4 class="card-title">Price: $9995</h4>
+                            <h4 class="card-title">Stock#: A2046</h4>
+                            <h5 class="card-text">Vehicle Details</h5>
+                            <ol>
+                                <strong><li>Information will be added soon</li></strong>
+                                <!-- <li>SLT</li>
+                                <li>ABS (4-Wheel)</li>
+                                <li>Air Conditioning</li>
+                                <li>Air Conditioning, Rear</li>
+                                <li>Power Windows</li>
+                                <li>Power Door Locks</li>
+                                <li>Cruise Control</li>
+                                <li>Power Steering</li>
+                                <li>Tilt Wheel</li>
+                                <li>AM/FM Radio</li>
+                                <li>Cassette</li>
+                                <li>CD/MP3 (single disk)</li>
+                                <li>Dual Air Bags</li>
+                                <li>Power Seat</li>
+                                <li>Third Row Seat</li>
+                                <li>Roof Rack</li>
+                                <li>Towing Pkg</li>
+                                <li>Premium Wheels</li> -->
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="card-img-top" src="assets/img/cars/windstar.png">
+                        <div class="card-body">
+                            <h4 class="card-title">Name: 2003 Ford Windstar</h4>
+                            <h4 class="card-title">Miles: 136878</h4>
+                            <h4 class="card-title">Price: $4995</h4>
+                            <h4 class="card-title">Stock#: A2028</h4>
+                            <h5 class="card-text">Vehicle Details</h5>
+                            <ol>
+                                <strong><li>Information will be added soon</li></strong>
+                                <!-- <li>SLT</li>
+                                <li>ABS (4-Wheel)</li>
+                                <li>Air Conditioning</li>
+                                <li>Air Conditioning, Rear</li>
+                                <li>Power Windows</li>
+                                <li>Power Door Locks</li>
+                                <li>Cruise Control</li>
+                                <li>Power Steering</li>
+                                <li>Tilt Wheel</li>
+                                <li>AM/FM Radio</li>
+                                <li>Cassette</li>
+                                <li>CD/MP3 (single disk)</li>
+                                <li>Dual Air Bags</li>
+                                <li>Power Seat</li>
+                                <li>Third Row Seat</li>
+                                <li>Roof Rack</li>
+                                <li>Towing Pkg</li>
+                                <li>Premium Wheels</li> -->
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="card-img-top" src="assets/img/cars/whitetruck.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Name: 2001 Chevrolet Silverado 1500 HD Crew Cab Short Bed</h4>
+                            <h4 class="card-title">Miles: 194138</h4>
+                            <h4 class="card-title">Price: $11995</h4>
+                            <h4 class="card-title">Stock#: A2055</h4>
+                            <h5 class="card-text">Vehicle Details</h5>
+                            <ol>
+                                <strong><li>Information will be added soon</li></strong>
+                                <!-- <li>SLT</li>
+                                <li>ABS (4-Wheel)</li>
+                                <li>Air Conditioning</li>
+                                <li>Air Conditioning, Rear</li>
+                                <li>Power Windows</li>
+                                <li>Power Door Locks</li>
+                                <li>Cruise Control</li>
+                                <li>Power Steering</li>
+                                <li>Tilt Wheel</li>
+                                <li>AM/FM Radio</li>
+                                <li>Cassette</li>
+                                <li>CD/MP3 (single disk)</li>
+                                <li>Dual Air Bags</li>
+                                <li>Power Seat</li>
+                                <li>Third Row Seat</li>
+                                <li>Roof Rack</li>
+                                <li>Towing Pkg</li>
+                                <li>Premium Wheels</li> -->
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="card-img-top" src="assets/img/cars/eldorado.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Name: 1993 Cadillac Eldorado</h4>
+                            <h4 class="card-title">Miles: 86878</h4>
+                            <h4 class="card-title">Price: $5995</h4>
+                            <h4 class="card-title">Stock#: A2015</h4>
+                            <h5 class="card-text">Vehicle Details</h5>
+                            <ol>
+                                <li>Air Conditioning</li>
+                                <li>Power Windows</li>
+                                <li>Power Door Locks</li>
+                                <li>Cruise Control</li>
+                                <li>Power Steering</li>
+                                <li>AM/FM Radio</li>
+                                <li>Cassette</li>
+                                <li>CD/MP3 (Single Disk)</li>
+                                <li>Dual Air Bags</li>
+                                <li>Dual Power Seats</li>
+                                <li>Leather</li>
+                                <li>Imitation Conv Top</li>
+                                <li>Alloy Wheels</li>
+                                <li>Premium Wheels</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="card-img-top" src="assets/img/cars/avenger.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Name: 2012 Dodge Avenger</h4>
+                            <h4 class="card-title">Miles: 48059</h4>
+                            <h4 class="card-title">Price: $9995</h4>
+                            <h4 class="card-title">Stock#: A2061</h4>
+                            <h5 class="card-text">Vehicle Details</h5>
+                            <ol>
+                                <strong><li>Information will be added soon</li></strong>
+                                <!-- <li>SLT</li>
+                                <li>ABS (4-Wheel)</li>
+                                <li>Air Conditioning</li>
+                                <li>Air Conditioning, Rear</li>
+                                <li>Power Windows</li>
+                                <li>Power Door Locks</li>
+                                <li>Cruise Control</li>
+                                <li>Power Steering</li>
+                                <li>Tilt Wheel</li>
+                                <li>AM/FM Radio</li>
+                                <li>Cassette</li>
+                                <li>CD/MP3 (single disk)</li>
+                                <li>Dual Air Bags</li>
+                                <li>Power Seat</li>
+                                <li>Third Row Seat</li>
+                                <li>Roof Rack</li>
+                                <li>Towing Pkg</li>
+                                <li>Premium Wheels</li> -->
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="card-img-top" src="assets/img/cars/fusion.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Name: 2015 Ford Fusion</h4>
+                            <h4 class="card-title">Miles: 119346</h4>
+                            <h4 class="card-title">Price: $11995</h4>
+                            <h4 class="card-title">Stock#: A2023</h4>
+                            <h5 class="card-text">Vehicle Details</h5>
+                            <ol>
+                                <li>Hill Start Assist Control</li>
+                                <li>Traction Control</li>
+                                <li>AdvanceTrac</li>
+                                <li>ABS (4 Wheel)</li>
+                                <li>Perimeter Alarm System</li>
+                                <li>Keyless Entry</li>
+                                <li>Keyless Start</li>
+                                <li>Air Conditioning</li>
+                                <li>Power Windows</li>
+                                <li>AM/FM Radio</li>
+                                <li>Power Door Locks</li>
+                                <li>CD/MP3 (single disk)</li>
+                                <li>Cruise Control</li>
+                                <li>Power Steering</li>
+                                <li>Tilt & Telescope Wheel</li>
+                                <li>Premium Sound</li>
+                                <li>SiriusXM Satellite</li>
+                                <li>Navigation System</li>
+                                <li>MyFord</li>
+                                <li>SYNC</li>
+                                <li>Parking Sensors</li>
+                                <li>Backup Camera</li>
+                                <li>Dual Air Bags</li>
+                                <li>Side Air Bags</li>
+                                <li>F&R Head Curtain Air Bags</li>
+                                <li>Knee Air Bags</li>
+                                <li>Heated Seats</li>
+                                <li>Dual Power Seats</li>
+                                <li>Leather</li>
+                                <li>Moon Roof</li>
+                                <li>Fog Lights</li>
+                                <li>Rear Spoiler</li>
+                                <li>Alloy Wheels</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="card-img-top" src="assets/img/cars/focus.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Name: 2001 Ford Focus</h4>
+                            <h4 class="card-title">Miles: 154433</h4>
+                            <h4 class="card-title">Price: $4995</h4>
+                            <h4 class="card-title">Stock#: A2052</h4>
+                            <h5 class="card-text">Vehicle Details</h5>
+                            <ol>
+                                <strong><li>Information will be added soon</li></strong>
+                                <!-- <li>SLT</li>
+                                <li>ABS (4-Wheel)</li>
+                                <li>Air Conditioning</li>
+                                <li>Air Conditioning, Rear</li>
+                                <li>Power Windows</li>
+                                <li>Power Door Locks</li>
+                                <li>Cruise Control</li>
+                                <li>Power Steering</li>
+                                <li>Tilt Wheel</li>
+                                <li>AM/FM Radio</li>
+                                <li>Cassette</li>
+                                <li>CD/MP3 (single disk)</li>
+                                <li>Dual Air Bags</li>
+                                <li>Power Seat</li>
+                                <li>Third Row Seat</li>
+                                <li>Roof Rack</li>
+                                <li>Towing Pkg</li>
+                                <li>Premium Wheels</li> -->
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="card-img-top" src="assets/img/cars/grayyukon.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Name: 2001 GMC Yukon (Gray)</h4>
+                            <h4 class="card-title">Miles: 221226</h4>
+                            <h4 class="card-title">Price: $9995</h4>
+                            <h4 class="card-title">Stock#: C474</h4>
+                            <h5 class="card-text">Vehicle Details</h5>
+                            <ol>
+                                <strong><li>Information will be added soon</li></strong>
+                                <!-- <li>SLT</li>
+                                <li>ABS (4-Wheel)</li>
+                                <li>Air Conditioning</li>
+                                <li>Air Conditioning, Rear</li>
+                                <li>Power Windows</li>
+                                <li>Power Door Locks</li>
+                                <li>Cruise Control</li>
+                                <li>Power Steering</li>
+                                <li>Tilt Wheel</li>
+                                <li>AM/FM Radio</li>
+                                <li>Cassette</li>
+                                <li>CD/MP3 (single disk)</li>
+                                <li>Dual Air Bags</li>
+                                <li>Power Seat</li>
+                                <li>Third Row Seat</li>
+                                <li>Roof Rack</li>
+                                <li>Towing Pkg</li>
+                                <li>Premium Wheels</li> -->
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="card-img-top" src="assets/img/cars/beigeyukon.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Name: 2003 GMC Yukon (Beige/Tan)</h4>
+                            <h4 class="card-title">Miles: 178628</h4>
+                            <h4 class="card-title">Price: $7995</h4>
+                            <h4 class="card-title">Stock#: A2048</h4>
+                            <h5 class="card-text">Vehicle Details</h5>
+                            <ol>
+                                <strong><li>Information will be added soon</li></strong>
+                                <!-- <li>SLT</li>
+                                <li>ABS (4-Wheel)</li>
+                                <li>Air Conditioning</li>
+                                <li>Air Conditioning, Rear</li>
+                                <li>Power Windows</li>
+                                <li>Power Door Locks</li>
+                                <li>Cruise Control</li>
+                                <li>Power Steering</li>
+                                <li>Tilt Wheel</li>
+                                <li>AM/FM Radio</li>
+                                <li>Cassette</li>
+                                <li>CD/MP3 (single disk)</li>
+                                <li>Dual Air Bags</li>
+                                <li>Power Seat</li>
+                                <li>Third Row Seat</li>
+                                <li>Roof Rack</li>
+                                <li>Towing Pkg</li>
+                                <li>Premium Wheels</li> -->
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="card-img-top" src="assets/img/cars/soul.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Name: 2010 Kia Soul</h4>
+                            <h4 class="card-title">Miles: 143955</h4>
+                            <h4 class="card-title">Price: $7495</h4>
+                            <h4 class="card-title">Stock#: A2031</h4>
+                            <h5 class="card-text">Vehicle Details</h5>
+                            <ol>
+                                <strong><li>Information will be added soon</li></strong>
+                                <!-- <li>SLT</li>
+                                <li>ABS (4-Wheel)</li>
+                                <li>Air Conditioning</li>
+                                <li>Air Conditioning, Rear</li>
+                                <li>Power Windows</li>
+                                <li>Power Door Locks</li>
+                                <li>Cruise Control</li>
+                                <li>Power Steering</li>
+                                <li>Tilt Wheel</li>
+                                <li>AM/FM Radio</li>
+                                <li>Cassette</li>
+                                <li>CD/MP3 (single disk)</li>
+                                <li>Dual Air Bags</li>
+                                <li>Power Seat</li>
+                                <li>Third Row Seat</li>
+                                <li>Roof Rack</li>
+                                <li>Towing Pkg</li>
+                                <li>Premium Wheels</li> -->
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="card-img-top" src="assets/img/cars/countrycoach.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Name: 1999 Country Coach Magna</h4>
+                            <h4 class="card-title">Miles: 146006</h4>
+                            <h4 class="card-title">Price: $44995</h4>
+                            <h4 class="card-title">Stock#: C469</h4>
+                            <h5 class="card-text">Vehicle Details</h5>
+                            <ol>
+                                <strong><li>Information will be added soon</li></strong>
+                                <!-- <li>SLT</li>
+                                <li>ABS (4-Wheel)</li>
+                                <li>Air Conditioning</li>
+                                <li>Air Conditioning, Rear</li>
+                                <li>Power Windows</li>
+                                <li>Power Door Locks</li>
+                                <li>Cruise Control</li>
+                                <li>Power Steering</li>
+                                <li>Tilt Wheel</li>
+                                <li>AM/FM Radio</li>
+                                <li>Cassette</li>
+                                <li>CD/MP3 (single disk)</li>
+                                <li>Dual Air Bags</li>
+                                <li>Power Seat</li>
+                                <li>Third Row Seat</li>
+                                <li>Roof Rack</li>
+                                <li>Towing Pkg</li>
+                                <li>Premium Wheels</li> -->
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="card-img-top" src="assets/img/cars/elliganza.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Name: 1977 GMC ELIGANZA II</h4>
+                            <h4 class="card-title">Miles: 68704</h4>
+                            <h4 class="card-title">Price: $31995</h4>
+                            <h4 class="card-title">Stock#: C475</h4>
+                            <h5 class="card-text">Vehicle Details</h5>
+                            <ol>
+                                <strong><li>Information will be added soon</li></strong>
+                                <!-- <li>SLT</li>
+                                <li>ABS (4-Wheel)</li>
+                                <li>Air Conditioning</li>
+                                <li>Air Conditioning, Rear</li>
+                                <li>Power Windows</li>
+                                <li>Power Door Locks</li>
+                                <li>Cruise Control</li>
+                                <li>Power Steering</li>
+                                <li>Tilt Wheel</li>
+                                <li>AM/FM Radio</li>
+                                <li>Cassette</li>
+                                <li>CD/MP3 (single disk)</li>
+                                <li>Dual Air Bags</li>
+                                <li>Power Seat</li>
+                                <li>Third Row Seat</li>
+                                <li>Roof Rack</li>
+                                <li>Towing Pkg</li>
+                                <li>Premium Wheels</li> -->
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="card-img-top" src="assets/img/cars/longtrailer.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Name: 2019 Heartland RV</h4>
+                            <h4 class="card-title">Miles: 0</h4>
+                            <h4 class="card-title">Price: $99995</h4>
+                            <h4 class="card-title">Stock#: C476</h4>
+                            <h5 class="card-text">Vehicle Details</h5>
+                            <ol>
+                                <strong><li>Information will be added soon</li></strong>
+                                <!-- <li>SLT</li>
+                                <li>ABS (4-Wheel)</li>
+                                <li>Air Conditioning</li>
+                                <li>Air Conditioning, Rear</li>
+                                <li>Power Windows</li>
+                                <li>Power Door Locks</li>
+                                <li>Cruise Control</li>
+                                <li>Power Steering</li>
+                                <li>Tilt Wheel</li>
+                                <li>AM/FM Radio</li>
+                                <li>Cassette</li>
+                                <li>CD/MP3 (single disk)</li>
+                                <li>Dual Air Bags</li>
+                                <li>Power Seat</li>
+                                <li>Third Row Seat</li>
+                                <li>Roof Rack</li>
+                                <li>Towing Pkg</li>
+                                <li>Premium Wheels</li> -->
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="card-img-top" src="assets/img/cars/smallcamper.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Name: 2002 Eagle Cap</h4>
+                            <h4 class="card-title">Miles: 0</h4>
+                            <h4 class="card-title">Price: $10995</h4>
+                            <h4 class="card-title">Stock#: C473</h4>
+                            <h5 class="card-text">Vehicle Details</h5>
+                            <ol>
+                                <strong><li>Information will be added soon</li></strong>
+                                <!-- <li>SLT</li>
+                                <li>ABS (4-Wheel)</li>
+                                <li>Air Conditioning</li>
+                                <li>Air Conditioning, Rear</li>
+                                <li>Power Windows</li>
+                                <li>Power Door Locks</li>
+                                <li>Cruise Control</li>
+                                <li>Power Steering</li>
+                                <li>Tilt Wheel</li>
+                                <li>AM/FM Radio</li>
+                                <li>Cassette</li>
+                                <li>CD/MP3 (single disk)</li>
+                                <li>Dual Air Bags</li>
+                                <li>Power Seat</li>
+                                <li>Third Row Seat</li>
+                                <li>Roof Rack</li>
+                                <li>Towing Pkg</li>
+                                <li>Premium Wheels</li> -->
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="card-img-top" src="assets/img/cars/newmar.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Name: 2005 Newmar Dutch Star</h4>
+                            <h4 class="card-title">Miles: 23332</h4>
+                            <h4 class="card-title">Price: $119995</h4>
+                            <h4 class="card-title">Stock#: C391</h4>
+                            <h5 class="card-text">Vehicle Details</h5>
+                            <ol>
+                                <strong><li>Information will be added soon</li></strong>
+                                <!-- <li>SLT</li>
+                                <li>ABS (4-Wheel)</li>
+                                <li>Air Conditioning</li>
+                                <li>Air Conditioning, Rear</li>
+                                <li>Power Windows</li>
+                                <li>Power Door Locks</li>
+                                <li>Cruise Control</li>
+                                <li>Power Steering</li>
+                                <li>Tilt Wheel</li>
+                                <li>AM/FM Radio</li>
+                                <li>Cassette</li>
+                                <li>CD/MP3 (single disk)</li>
+                                <li>Dual Air Bags</li>
+                                <li>Power Seat</li>
+                                <li>Third Row Seat</li>
+                                <li>Roof Rack</li>
+                                <li>Towing Pkg</li>
+                                <li>Premium Wheels</li> -->
+                            </ol>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -323,6 +860,15 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
         <!-- Core theme JS-->
         <script type="text/javascript" src="js/adminbuttons.js"></script>
-        <script src="js/adminbuttons.js"></script>
+        <script>
+            function addCarsButton() {
+                let password = prompt("Enter Password");
+                if (password === "Mattwp21") {
+                    alert("Password Accepted!");
+                } else {
+                    alert("Incorrect Password!");
+                }
+            }
+    </script>
     </body>
 </html>
